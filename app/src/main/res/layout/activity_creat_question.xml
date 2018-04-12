@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayC"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/layout_head"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:layout_marginTop="@dimen/dm_10">
+
+
+        <TextView
+            android:id="@+id/tv_type_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/common_blue_3dp"
+            android:padding="@dimen/dm_10"
+            android:text="问题类型"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t14"/>
+
+
+        <TextView
+            android:id="@+id/tv_choice_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/common_white_3dp"
+            android:padding="@dimen/dm_10"
+            android:text="选择"
+            android:textColor="@color/blueB"
+            android:textSize="@dimen/t14"/>
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_5"
+            android:layout_toLeftOf="@+id/tv_choice_type"
+            android:layout_toRightOf="@+id/tv_type_title"
+            android:background="@drawable/common_white_3dp"
+            android:gravity="center"
+            android:padding="@dimen/dm_10"
+            android:hint="请选择问题类型"
+            android:textColor="@color/blackA"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:layout_marginTop="@dimen/dm_10">
+
+
+        <TextView
+            android:id="@+id/tv_company_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/common_blue_3dp"
+            android:padding="@dimen/dm_10"
+            android:text="咨询单位"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t14"/>
+
+
+        <TextView
+            android:id="@+id/tv_choice_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/common_white_3dp"
+            android:padding="@dimen/dm_10"
+            android:text="选择"
+            android:textColor="@color/blueB"
+            android:textSize="@dimen/t14"/>
+
+        <TextView
+            android:id="@+id/tv_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_5"
+            android:layout_toLeftOf="@+id/tv_choice_company"
+            android:layout_toRightOf="@+id/tv_company_title"
+            android:background="@drawable/common_white_3dp"
+            android:gravity="center"
+            android:padding="@dimen/dm_10"
+            android:hint="请选择咨询机构"
+            android:textColor="@color/blackA"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:layout_marginTop="@dimen/dm_10">
+
+
+        <TextView
+            android:id="@+id/tv_content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_blue_3dp"
+            android:padding="@dimen/dm_10"
+            android:text="问题内容"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t14"/>
+
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:gravity="top"
+            android:layout_toRightOf="@+id/tv_content_title"
+            android:background="@drawable/common_white_3dp"
+            android:hint="请输入咨询内容"
+            android:padding="@dimen/dm_10"
+            android:textColor="@color/blackA"
+            android:textSize="@dimen/t14"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:layout_marginTop="@dimen/dm_10">
+
+
+        <TextView
+            android:id="@+id/tv_nimi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_blue_3dp"
+            android:padding="@dimen/dm_10"
+            android:text="问题类型"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t14"
+            android:visibility="invisible"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_nimi"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_10"
+                android:src="@drawable/ic_choice_normal"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_5"
+                android:text="是否匿名"
+                android:textColor="@color/blackA"
+                android:textSize="@dimen/t12"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm_50"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@drawable/common_blue_5dp"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="@dimen/t18"/>
+
+
+</LinearLayout>

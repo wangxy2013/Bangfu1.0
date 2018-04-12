@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="marriedType">
+        <item>已婚</item>
+        <item>未婚</item>
+        <item>未知</item>
+    </string-array>
+    <string-array name="sexType">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="evalType">
+        <item>满意</item>
+        <item>比较满意</item>
+        <item>不满意</item>
+    </string-array>
+
+
+
+</resources>

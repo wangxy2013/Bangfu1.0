@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/layout_head"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_dsrgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="@dimen/dm_15"
+        android:background="@drawable/common_dsrnhgl_5dp"
+        android:paddingBottom="@dimen/dm_15"
+        android:paddingLeft="10dp"
+        android:paddingTop="@dimen/dm_15">
+
+        <ImageView
+            android:id="@+id/iv_dsr"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_dsrgl"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/t14"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_toRightOf="@+id/iv_dsr"
+            android:text="低收入农户信息管理"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+    android:id="@+id/rl_sos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dm_15"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="@dimen/dm_15"
+    android:background="@drawable/common_sos_5dp"
+    android:paddingBottom="@dimen/dm_15"
+    android:paddingLeft="10dp"
+    android:paddingTop="@dimen/dm_15">
+
+    <ImageView
+        android:id="@+id/iv_sos"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_tbqz"/>
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/t14"
+        android:layout_marginLeft="@dimen/dm_10"
+        android:layout_toRightOf="@+id/iv_sos"
+        android:text="特别求助平台"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_xxxc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="@dimen/dm_15"
+        android:background="@drawable/common_xxxc_5dp"
+        android:paddingBottom="@dimen/dm_15"
+        android:paddingLeft="10dp"
+        android:paddingTop="@dimen/dm_15">
+
+        <ImageView
+            android:id="@+id/iv_xxxc"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_xxxc"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/t14"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_toRightOf="@+id/iv_xxxc"
+            android:text="信息宣传"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dbjz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="@dimen/dm_15"
+        android:background="@drawable/common_disease_5dp"
+        android:paddingBottom="@dimen/dm_15"
+        android:paddingLeft="10dp"
+        android:paddingTop="@dimen/dm_15">
+
+        <ImageView
+            android:id="@+id/iv_dbjz"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_disease"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/t14"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_toRightOf="@+id/iv_dbjz"
+            android:text="大病救助"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_jyjz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="@dimen/dm_15"
+        android:background="@drawable/common_edu_5dp"
+        android:paddingBottom="@dimen/dm_15"
+        android:paddingLeft="10dp"
+        android:paddingTop="@dimen/dm_15">
+
+        <ImageView
+            android:id="@+id/iv_jyjz"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dm_54"
+            android:src="@drawable/ic_edu"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/t14"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_toRightOf="@+id/iv_jyjz"
+            android:text="教育救助"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/layout_head"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dm_5"
+            android:layout_marginLeft="@dimen/dm_15"
+            android:layout_marginRight="@dimen/dm_5"
+            android:layout_marginTop="@dimen/dm_5"
+            android:layout_toLeftOf="@+id/btn_search"
+            android:background="@drawable/common_gray1_5dp"
+            android:padding="@dimen/dm_5"
+            android:visibility="visible">
+
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dm_5"
+                android:src="@drawable/ic_search"/>
+            <EditText
+                android:id="@+id/et_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/iv_search"
+                android:background="@color/transparent"
+                android:hint="点击搜索姓名或电话"
+                android:paddingLeft="5dp"
+                android:textColor="@color/blackA"
+                android:textSize="@dimen/t14"/>
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="50dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dm_15"
+            android:background="@drawable/common_blue_5dp"
+            android:text="搜索"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <com.bangfu.widget.list.refresh.PullToRefreshRecyclerView
+        android:id="@+id/pullToRefreshRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/layout_head"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <EditText
+            android:id="@+id/et_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请输入姓名"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请选择性别"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="身份证号"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <EditText
+            android:id="@+id/et_userCid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请输入户主身份证号码"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="婚姻状况"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <TextView
+            android:id="@+id/tv_marriedType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请选择婚姻状况"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="工作状况"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <TextView
+            android:id="@+id/tv_workType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请选择工作状况"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="健康状况"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <TextView
+            android:id="@+id/tv_healthyType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请选择健康状况"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="所属行政区"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <TextView
+            android:id="@+id/tv_did"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请选择所属行政区"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:id="@+id/ll_relationType"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="与户主关系"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <TextView
+            android:id="@+id/tv_relationType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请选择与户主关系"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/line_relationType"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="家庭地址"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请输入家庭地址"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="联系电话"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请输入联系电话"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dm_30"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:layout_marginTop="@dimen/dm_60"
+        android:background="@drawable/common_blue_5dp"
+        android:padding="@dimen/dm_10"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="@dimen/t24"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

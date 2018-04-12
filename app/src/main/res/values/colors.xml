@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="transparentBlack">#77000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#cccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#30ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="grayA">#999999</color>
+    <color name="redA">#f35556</color>
+    <color name="redB">#50f35556</color>
+    <color name="blue">#273655</color>
+    <color name="blueB">#2BAAA3</color>
+    <color name="grayC">#E4E4E4</color>
+    <color name="grayD">#F4F4F4</color>
+    <color name="grayE">#F2F2F2</color>
+
+    <color name="windowTitleBackground">#f35556</color>
+    <color name="windowBackground">#F6F6F6</color>
+    <color name="blackA">#666666</color>
+    <color name="blackB">#999999</color>
+
+
+    <color name="transparent1">#AAffffff</color>
+    <color name="blackC">#666666</color>
+    <color name="hint_edit" >#818181</color>
+    <!-- not used-->
+    <color name="grayB">#bababa</color>
+    <color name="textColorBlack">#3a3a3a</color>
+    <color name="secondTitleColor">#e2e2e2</color>
+
+    <color name="titleRedText">#fdbec6</color>
+    <color name="emoji_bg">#eaeded</color>
+    <color name="item_sign">#4f4665</color>
+    <color name="yellow">#FCDC00</color>
+    <color name="orange">#F58E20</color>
+    <color name="line">#D9D9D9</color>
+
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/layout_head"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="患者姓名"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+
+        <TextView
+            android:id="@+id/tv_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请选择患者姓名"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="大病名称"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+
+        <EditText
+            android:id="@+id/et_disease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请输入大病名称"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="就诊医院"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+
+        <EditText
+            android:id="@+id/et_hospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="请输入就诊医院"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="医疗总费用"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_18"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+
+        <EditText
+            android:id="@+id/et_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:background="@color/transparent"
+            android:hint="请输入医疗总费用"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_80"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="@dimen/dm_80"
+            android:layout_height="wrap_content"
+            android:text="说明"
+            android:layout_gravity="top"
+            android:textColor="@color/blackC"
+            android:textSize="@dimen/t16"/>
+
+        <View
+            android:layout_width="@dimen/dm_1"
+            android:layout_height="@dimen/dm_80"
+            android:layout_marginLeft="@dimen/dm_10"
+            android:layout_marginRight="@dimen/dm_10"
+            android:background="@color/line"/>
+
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dm_5"
+            android:layout_height="@dimen/dm_80"
+            android:background="@color/transparent"
+            android:hint="请输入救助说明"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t16"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_1"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:background="@color/line"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dm_30"
+        android:layout_marginLeft="@dimen/dm_15"
+        android:layout_marginRight="@dimen/dm_15"
+        android:layout_marginTop="@dimen/dm_60"
+        android:background="@drawable/common_blue_5dp"
+        android:padding="@dimen/dm_10"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="@dimen/t24"/>
+
+</LinearLayout>

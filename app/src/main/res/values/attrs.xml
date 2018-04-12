@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ParallaxContainer">
+        <attr name="a_in" format="float" />
+        <attr name="a_out" format="float" />
+        <attr name="x_in" format="float" />
+        <attr name="x_out" format="float" />
+        <attr name="y_in" format="float" />
+        <attr name="y_out" format="float" />
+    </declare-styleable>
+    <item name="listChildTag" type="id" />
+
+    <declare-styleable name="PasswordInputView">
+        <attr name="borderColor" format="color" />
+        <attr name="contentColor" format="color" />
+        <attr name="borderRadius" format="dimension" />
+        <attr name="passwordLength" format="integer" />
+        <attr name="passwordColor" format="color" />
+        <attr name="passwordRadius" format="dimension" />
+        <attr name="cellWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ITab">
+        <attr name="indicator" format="color|reference" />
+        <attr name="showIndicator" format="boolean" />
+        <attr name="indicateHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LockView">
+        <attr name="src" format="reference" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="password" format="string" />
+        <attr name="lineColor" format="reference" />
+        <attr name="failColor" format="color" />
+        <attr name="successColor" format="color" />
+        <attr name="layoutSquare" format="enum">
+            <enum name="width" value="1" />
+            <enum name="height" value="2" />
+            <enum name="shorter" value="3" />
+            <enum name="longer" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SimpleTab">
+        <attr name="tabIcon" format="reference" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="tabChecked" format="boolean" />
+        <attr name="tabTextColors" format="color|reference" />
+        <attr name="tabIconPadding" format="dimension" />
+        <attr name="tabText" format="string" />
+    </declare-styleable>
+
+    <!--文字描边-->
+    <declare-styleable name="StrokeTextView">
+        <attr name="outerColor" format="color|reference" />
+        <attr name="innnerColor" format="color|reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_loading"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dm_80"
+        android:src="@drawable/ic_login_logo"/>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_text"
+        android:layout_below="@+id/iv_logo"
+        android:textSize="@dimen/t36"
+        android:textColor="@color/white"
+        android:text="精准扶贫"
+        android:layout_marginTop="@dimen/dm_30"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/tv_text"
+        android:textSize="@dimen/t12"
+        android:textColor="@color/white"
+        android:text="J I N G Z H U N F U P I N"
+        android:layout_marginTop="@dimen/dm_5"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
